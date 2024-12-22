@@ -1,0 +1,65 @@
+.closebutton {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: #EC6B5E;
+  border-radius: 16px;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  margin-left: 6px;
+}
+
+.welcomewind {
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 19px;
+  width: 360px;
+  padding: 16px;
+}
+
+.danoteswind {
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 19px;
+  width: 360px;
+  padding: 16px;
+}
+
+.thebodyo {
+  font-family: Courier, monospace;
+  background-image: url('./DylanOSB.svg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.welcomeborder {
+  border: solid; 
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 180px); 
+  background-color: rgba(0, 123, 255, 0.548); 
+  user-select: none;
+}
+
+.danotesborder {
+  border: solid; 
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 180px); 
+  background-color: rgba(0, 123, 255, 0.548); 
+  user-select: none;
+}
+
+#welcomeheader {
+  cursor: grab;
+}
+
+.danotes {
+  padding-top: 64px;
+  padding-left: 16px;
+}
